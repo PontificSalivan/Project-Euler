@@ -1,13 +1,9 @@
 from datetime import date 
 
-
-start = date(1901,1,1)
-end = date(2000,12,31)
-
 count=0
-year = start.year
-month = start.month
-while year <= end.year and month <= end.month:
+year = date(1901,1,1).year
+month = date(1901,1,1).month
+while year <= date(2000,12,31).year and month <= date(2000,12,31).month:
     print(str(year)+'  '+str(month))
     if date(year,month,1).isoweekday() == 7:
         count += 1
