@@ -1,4 +1,4 @@
-f = open('names.txt', 'r')
+f = open('22names.txt', 'r')
 sortedList = f.read()
 f.close()
 
