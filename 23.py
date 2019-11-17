@@ -1,10 +1,15 @@
 from itertools import groupby
+def isPrime(n):
+    return all(n % i for i in range(2, n))
+
 sumOfAbundant = 0
 
 lst=list()
 excessList=list()
 
 for i in range (2,28123):
+    if isPrime(i):
+        continue
     for j in range (1,int(i/2)+1):
         if int(i%j) == 0:
             lst.append(j)
@@ -25,7 +30,6 @@ for x in range (1, 28123):
         if x == i:
             break
     else:
-        print(x)
         sumOfAbundant += x
 
 print(sumOfAbundant)
