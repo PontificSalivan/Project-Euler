@@ -9,8 +9,8 @@ for p in range(100, 1001, 2):
         if count > max_count:
             max_count = count
             p_max = p
-
 print(p_max)
+
 
 
 
