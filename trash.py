@@ -26,5 +26,4 @@ for i in names:
 print(sum(pointsList))
 
 
-    
 
