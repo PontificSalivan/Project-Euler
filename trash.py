@@ -24,6 +24,7 @@ for i in names:
     index += 1
     sumOfPoints=0
 print(sum(pointsList))
+print(hi)
 
 
 
