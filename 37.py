@@ -1,5 +1,4 @@
-def isPrime(n):
-    return all(n % i for i in range(2, n))
+from functions.prime import isPrime
 sumi=186 # first 4 numbers less than 100
 count = 4
 for i in range (100,10**10):

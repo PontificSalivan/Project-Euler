@@ -1,6 +1,5 @@
 from itertools import groupby
-def isPrime(n):
-    return all(n % i for i in range(2, n))
+from functions.prime import isPrime
 
 sumOfAbundant = 0
 

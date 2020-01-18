@@ -1,5 +1,4 @@
-def isPrime(k):
-    return all(k % i for i in range(2, k))
+from functions.prime import isPrime
 
 maxPrimeCount = 0
 primeCount = 0
