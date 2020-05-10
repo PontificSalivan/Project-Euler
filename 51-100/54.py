@@ -109,6 +109,7 @@ def value_of_cards(lst):
             lst_answer.append(1)
             lst_answer.append(n_1[4])
             return lst_answer
+            
     else:
         if int(n_1[4])-int(n_1[3])==1 and int(n_1[3])-int(n_1[2])==1 and int(n_1[2])-int(n_1[1])==1 and int(n_1[1])-int(n_1[0])==1:
             lst_answer.append(5)
